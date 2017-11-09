@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 dockerhubuser=appworkshop
-dockerimagename=meteord-graphicsmagick-pdftk-node4
+dockerimagename=meteord-graphicsmagick-pdftk-node8
 
 command -v jq >/dev/null 2>&1 || { echo "I require jq but it's not installed.  Aborting." >&2; exit 1; }
 
