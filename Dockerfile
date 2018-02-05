@@ -1,4 +1,4 @@
-FROM appworkshop/meteord:node-8.9.1-base
+FROM appworkshop/meteord:node-8.9.4-base
 RUN apt-get update -y
 RUN apt-get install graphicsmagick -y
 RUN apt-get install pdftk -y
